@@ -1,0 +1,25 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+     background-color: green;
+     min-height: 100vh;
+     display:flex;
+     justify-content:center;
+    align-items: center;
+
+    }
+#post {background-color: white;
+    width: 450px;
+    height: 90px;
+
+     }
+.post-herader{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.post-picture{
+               max-width:100%;
+             }
