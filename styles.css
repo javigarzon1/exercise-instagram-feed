@@ -1,25 +1,54 @@
 html{
-    padding: 0;
-    margin: 0;
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
 }
-body{
-     background-color: green;
-     min-height: 100vh;
-     display:flex;
-     justify-content:center;
-    align-items: center;
-
+.header
+{
+    justify-items: center;
+}
+.body{
+    padding: 10px;
+}
+.post{
+   
+    background-color: rgb(215, 200, 200);
+  
     }
-#post {background-color: white;
-    width: 450px;
-    height: 90px;
-
+#post{
+    width: 1030px; 
+    height: 950px;
+    
+    border: 10px;
+    padding: 10px;
+   
+  
+    border: 7px;
      }
-.post-herader{
-    display:flex;
-    justify-content:center;
-    align-items: center;
+.post-header{
+    font-size 20: 
+    color: black;
+    float: left ;
 }
+.number{
+    justify-items: right; color:gray;
+    float: right ;
+}
+
 .post-picture{
-               max-width:100%;
+
+    position: center;
+    max-width: 100%;
+    width: 1030px; 
+    height: 900px;
+    border: 10px;
+    
              }
+.post-footer{
+                font-size: 16;
+                 color: blue ;
+                justify-content:left;
+                align-items: center;
+                max-width: 100%;
+              }
